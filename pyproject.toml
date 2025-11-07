@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "AI-Reasoning-Assistant"
+version = "0.1.0"
+description = "An Agentic RAG Orchestrator for Explainable AI Reasoning"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "*"
+openai = "*"
+chromadb = "*"
+sentence-transformers = "*"
+streamlit = "*"
+python-dotenv = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
